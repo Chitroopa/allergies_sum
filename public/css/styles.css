@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+td {
+  width: 150px;
+}
+td+td {
+  width: auto;
+}
+th {
+  background-color: #c1c2c3;
+}

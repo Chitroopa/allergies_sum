@@ -4,7 +4,7 @@ class Fixnum
     result_allergies = []
     counter = 0
     user_input = self
-    until counter == 8 do  
+    until counter == 8 do
       reminder = user_input % allergies_number[counter]
       quotient = user_input / allergies_number[counter]
 
@@ -19,14 +19,14 @@ class Fixnum
   end
   define_method(:allergies) do
     allergies_list = {
-       1 => "eggs",
-       2 => "peanuts",
-       4 => "shellfish",
-       8 => "strawberries",
-       16 => "tomatoes",
-       32 => "chocolate",
-       64 => "pollen",
-       128 => "cats",
+       1 => "Eggs",
+       2 => "Peanuts",
+       4 => "Shellfish",
+       8 => "Strawberries",
+       16 => "Tomatoes",
+       32 => "Chocolate",
+       64 => "Pollen",
+       128 => "Cats",
     }
     result_array = []
     if allergies_list.include?(self)

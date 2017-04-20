@@ -9,6 +9,6 @@ get('/') do
 end
 
 get('/result') do
-
+  @allergy = params.fetch('allergy-number').to_i.allergies()
   erb(:result)
 end
